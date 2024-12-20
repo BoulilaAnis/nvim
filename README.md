@@ -14,7 +14,6 @@ I use Neovim for coding because it is a terminal-based editor that blends the si
 > # the plugins i use
 
 - [ alpha ](https://github.com/goolord/alpha-nvim) <span style="color: #D65D0E">**for start menu**</span>
-- [ auto-session](https://github.com/rmagatti/auto-session) <span style="color: #D65D0E">**to save and restor session**</span>
 - [ autopairs ](https://github.com/windwp/nvim-autopairs) <span style="color: #D65D0E">**to auto close paire and ...**</span>
 - [ bufferline ](https://github.com/akinsho/bufferline.nvim) <span style="color: #D65D0E">**to make buffer line better**</span>
 - [ comment ](https://github.com/numToStr/Comment.nvim) <span style="color: #D65D0E">**for eazy comment**</span>
