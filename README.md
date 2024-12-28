@@ -18,6 +18,8 @@ I use **`Gruvbox`** colorscheme
 │   │   ├── options.lua
 │   │   └── snippets.lua
 │   └── plugins
+│       ├── my
+│       │   └── term.lua
 │       ├── alpha.lua
 │       ├── auto-tag.lua
 │       ├── autocompletion.lua
@@ -25,7 +27,7 @@ I use **`Gruvbox`** colorscheme
 │       ├── colorscheme.lua
 │       ├── comment.lua
 │       ├── gitsigns.lua
-│       ├── indent-blankline.lua
+│       ├── inc-rename.lua
 │       ├── lsp.lua
 │       ├── lualine.lua
 │       ├── markdown-preview.lua
@@ -33,10 +35,11 @@ I use **`Gruvbox`** colorscheme
 │       ├── neotree.lua
 │       ├── noice.lua
 │       ├── none-ls.lua
+│       ├── snacks.lua
 │       ├── surround.lua
 │       ├── telescope.lua
 │       └── treesitter.lua
-└── init.lua
+├── init.lua
 ```
 
 > this is my nvim config folder
