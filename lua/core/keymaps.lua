@@ -25,7 +25,9 @@ vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 -- Buffers
 vim.keymap.set('n', '<S-l>', ':bnext<CR>', opts)
 vim.keymap.set('n', '<S-h>', ':bprevious<CR>', opts)
-vim.keymap.set('n', '<leader>x', ':bdelete!<CR>', opts) -- close buffer
+vim.keymap.set('n', '<leader>bd', function()
+  Snacks.bufdelete()
+end, { desc = 'Delete buffer' }) -- close buffer
 vim.keymap.set('n', '<leader>b', '<cmd> enew <CR>', opts) -- new buffer
 
 -- Window management
