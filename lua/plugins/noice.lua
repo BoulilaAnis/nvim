@@ -48,5 +48,6 @@ return {
       vim.cmd [[messages clear]]
     end
     require('noice').setup(opts)
+    opts.presets.lsp_doc_border = true
   end,
 }
