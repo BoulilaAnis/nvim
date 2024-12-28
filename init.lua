@@ -26,7 +26,6 @@ require('lazy').setup {
   require 'plugins.autocompletion',
   require 'plugins.none-ls',
   require 'plugins.gitsigns',
-  require 'plugins.indent-blankline',
   require 'plugins.misc',
   require 'plugins.comment',
   require 'plugins.alpha',
@@ -34,6 +33,8 @@ require('lazy').setup {
   require 'plugins.noice',
   require 'plugins.markdown-preview',
   require 'plugins.auto-tag',
+  require 'plugins.snacks',
+  require 'plugins.inc-rename',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
